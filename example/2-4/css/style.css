@@ -1,0 +1,11 @@
+/*selector {
+	property: value;
+} */
+
+body {
+	background-color: orange;
+}
+
+p{
+	background-color: green;
+}
