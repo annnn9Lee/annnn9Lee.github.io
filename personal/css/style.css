@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&family=Source+Sans+Pro&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #edf6f9;
+	font-family: Lora, serif;
+	font-size: 2wh;
+	line-height: 3wh;
+}
+
+nav, div {
+	width: 60%;
+}
+
+nav {
+	position: fixed;
+	background-color: #006d77;
+	height: 50px;
+	line-height: 50px;
+	opacity: 0.9;
+}
+
+nav > a {
+	color: white;
+	padding: 2px 4px;
+	text-decoration: none;
+	
+}
+
+h1, h2, h3 {
+	font-family: Poppins, sans-serif;
+}
+
+article {
+	margin: 1.5vh 0;
+	padding: 1vh 5vw;
+}
+
+section {
+	margin: 1.2vh 0;
+}
+
+section > p {
+	text-indent: 5%;
+}
+
+p {
+	margin: 0.2vh 0;
+}
+
+a {
+	text-decoration: none;
+}
