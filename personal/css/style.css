@@ -22,7 +22,7 @@ body {
 }
 
 nav {
-	width: 40%;
+	width: 20%;
     margin-left: 0%;
 	position: fixed;
 	background-color: #006d77;
@@ -43,6 +43,7 @@ div {
     margin-left: 5%;
     position: relative;
     left: 200px;
+    background-color: white;
 }
 
 h1, h2, h3 {
