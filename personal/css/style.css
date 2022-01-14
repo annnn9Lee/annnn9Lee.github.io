@@ -22,19 +22,28 @@ body {
 }
 
 nav {
-	width: 20%;
-    margin-left: 0%;
+	width: 60%;
+    margin-left: 20%;
 	position: fixed;
 	background-color: #006d77;
-	height: 50px;
-	line-height: 50px;
+	height: 6vh;
+	font-size: 3vh;
+	line-height: 6vh;
 	opacity: 0.9;
 }
 
 nav > a {
+	display: inline-block;
+	height: 100%;
 	color: white;
-	padding: 2px 4px;
+	padding: 0 2vw;
 	text-decoration: none;
+	transition: all 0.3s ease-in;
+}
+
+nav > a:hover {
+	background-color: #edf6f9;
+	transition: all 0.3s ease-out;
 }
 
 div {
@@ -70,6 +79,13 @@ h3 {
 article {
 	margin: 1.5vh 0;
 	padding: 1vh 5vw;
+}
+
+article {
+	position: relative;
+	top: 20%;
+	left: 10%;
+	width: 80%;
 }
 
 section {
