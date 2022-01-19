@@ -15,7 +15,7 @@ html {
 body {
 	overflow-x: hidden;
 	overflow-y: auto;
-	background-color: #edf6f9;
+	background-color: #157A6E;
 	font-family: Lora, serif;
 	font-size: 2wh;
 	line-height: 3wh;
@@ -32,13 +32,13 @@ header {
 	margin: 3% 20% 3%;
 	width: 60%;
 	text-align: center;
+	color: #edf6f9;
 }
 
 nav {
 	width: 60%;
     margin-left: 20%;
-	position: fixed;
-	background-color: #006d77;
+	background-color: #edf6f9;
 	height: 6vh;
 	font-size: 3vh;
 	line-height: 6vh;
@@ -48,14 +48,14 @@ nav {
 nav > a {
 	display: inline-block;
 	height: 100%;
-	color: white;
+	color: #157A6E;
 	padding: 0 2vw;
 	text-decoration: none;
 	transition: all 0.3s ease-in;
 }
 
 nav > a:hover {
-	background-color: #edf6f9;
+	background-color: white;
 	transition: all 0.3s ease-out;
 }
 
@@ -77,6 +77,10 @@ h3 {
 	margin: 0.5vh 0;
 }
 
+div.img > img {
+	width: 100%;
+}
+
 article {
 	position: relative;
 	top: 20%;
@@ -84,7 +88,7 @@ article {
 	width: 60%;
 	margin: 1.5vh 0;
 	padding: 1vh 5vw;
-	background-color: white;
+	background-color: #edf6f9;
 }
 
 section {
