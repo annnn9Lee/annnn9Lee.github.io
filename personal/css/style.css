@@ -26,9 +26,9 @@ header, h1, h2, h3 {
 
 header {
 	font-size: 6vh;
-	height: 10vh;
-	line-height: 10vh;
-	margin: 3% 20% 3%;
+	height: 30vh;
+	line-height: 30vh;
+	margin: 0 20% 0;
 	width: 60%;
 	text-align: center;
 	color: #edf6f9;
