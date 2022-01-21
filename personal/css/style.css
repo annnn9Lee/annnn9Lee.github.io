@@ -106,6 +106,7 @@ section > p {
 
 div#footer {
 	text-align: center;
-	height: 5vh;
-	line-height: 5vh;
+	height: 20vh;
+	line-height: 20vh;
+	color: #edf6f9;
 }
