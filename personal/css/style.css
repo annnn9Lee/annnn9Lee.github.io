@@ -20,7 +20,7 @@ body {
 	line-height: 3vh;
 }
 
-header, h1, h2, h3 {
+header, h1, h2, h3, footer {
 	font-family: Dongle, Noto Serif TC, sans-serif;
 }
 
@@ -104,9 +104,10 @@ section > p {
 	color: #323232;
 }
 
-div#footer {
+footer {
 	text-align: center;
-	height: 20vh;
-	line-height: 20vh;
+	font-size: 5vh;
+	height: 10vh;
+	line-height: 10vh;
 	color: #edf6f9;
 }
